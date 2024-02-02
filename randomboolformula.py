@@ -40,11 +40,7 @@ class DIRA(commands.Cog):
         
         await ctx.send(generate_random_boolean_formula())
 
-    
+
 
 async def setup(bot):
     await bot.add_cog(DIRA(bot))
-
-
-
-
